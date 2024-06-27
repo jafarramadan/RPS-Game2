@@ -22,7 +22,6 @@ namespace RPSGameTests
         }
 
 
-
         [Theory]
         [InlineData("rock", "paper", 1)]
         [InlineData("scissors", "rock", 1)]
