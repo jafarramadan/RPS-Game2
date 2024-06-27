@@ -13,6 +13,7 @@
                     Console.WriteLine($"Round {i}:");
                     RPSGame.Compare(playerOne.ChooseMove(), RPSGame.AIMove(), playerOne, playerTwo);
                 }
+
             }
             catch (FormatException e)
             {

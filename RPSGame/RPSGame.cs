@@ -38,8 +38,6 @@ namespace RPSGame
                 Console.WriteLine($"{playerOne.Name}  Score: {playerOne.Score} And Move {playerOneMove}");
                 Console.WriteLine($"{AI.Name}  Score: {AI.Score} And Move: {playerTwoMove} ");
             }
-
-
             if (playerOne.Score > AI.Score)
             {
                 Console.WriteLine($"{playerOne.Name} is the  winner!");

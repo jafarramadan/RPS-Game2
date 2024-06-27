@@ -27,7 +27,6 @@ namespace RPSGame
         {
             get { return score; }
             set { score = value; }
-
         }
 
         public string ChooseMove()
